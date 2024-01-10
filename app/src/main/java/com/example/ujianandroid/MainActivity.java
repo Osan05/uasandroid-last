@@ -59,6 +59,7 @@ public class MainActivity extends AppCompatActivity {
                         String nama_dengan_urutan = i + ". " + nama_lengkap + "-" +status;
                         daftar_nama.add(nama_dengan_urutan);
                     }
+
                     edNamaDepan.setText("");
                     edNamaBelakang.setText("");
                     edUmur.setText("");
